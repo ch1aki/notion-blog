@@ -29,13 +29,11 @@ const contacts = [
 
 export default () => (
   <>
-    <Header titlePre="Contact" />
+    <Header titlePre="Links" />
     <div className={sharedStyles.layout}>
-      <h1 style={{ marginTop: 0 }}>Contact</h1>
+      <h1 style={{ marginTop: 0 }}>Links</h1>
 
-      <div className={contactStyles.name}>
-        ch1aki - SRE
-      </div>
+      <div className={contactStyles.name}>ch1aki - SRE</div>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
