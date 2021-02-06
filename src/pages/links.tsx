@@ -8,6 +8,7 @@ import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
 import Envelope from '../components/svgs/envelope'
 import LinkedIn from '../components/svgs/linkedin'
+import RSS from '../components/svgs/rss'
 
 const contacts = [
   {
@@ -24,6 +25,11 @@ const contacts = [
     Comp: LinkedIn,
     alt: 'linkedin icon',
     link: 'https://www.linkedin.com/in/chiaki-sugawara-2b7605135/',
+  },
+  {
+    Comp: RSS,
+    alt: 'rss icon',
+    link: '/feed',
   },
 ]
 
