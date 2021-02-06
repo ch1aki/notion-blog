@@ -16,11 +16,6 @@ export default () => (
         alt="Vercel + Notion"
       />
       <h1>ch1aki.com</h1>
-      <dl>
-        <dt>
-          <a href="/feed">RSS</a>
-        </dt>
-      </dl>
     </div>
   </>
 )
